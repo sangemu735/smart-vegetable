@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/smart-vegetable/static/css/main.b6b06499.css",
-    "main.js": "/smart-vegetable/static/js/main.aacc6fd8.js",
+    "main.js": "/smart-vegetable/static/js/main.1f5362e7.js",
     "static/js/787.c4e7f8f9.chunk.js": "/smart-vegetable/static/js/787.c4e7f8f9.chunk.js",
     "static/media/LOGIN.JPG": "/smart-vegetable/static/media/LOGIN.3001c8b1640fa7206fdf.JPG",
     "index.html": "/smart-vegetable/index.html",
     "main.b6b06499.css.map": "/smart-vegetable/static/css/main.b6b06499.css.map",
-    "main.aacc6fd8.js.map": "/smart-vegetable/static/js/main.aacc6fd8.js.map",
+    "main.1f5362e7.js.map": "/smart-vegetable/static/js/main.1f5362e7.js.map",
     "787.c4e7f8f9.chunk.js.map": "/smart-vegetable/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6b06499.css",
-    "static/js/main.aacc6fd8.js"
+    "static/js/main.1f5362e7.js"
   ]
 }
