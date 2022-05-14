@@ -46,6 +46,7 @@
 }
 
 .device-list > img {
+    width: 16rem;
     cursor: pointer;
 }
 

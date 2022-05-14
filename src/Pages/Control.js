@@ -47,9 +47,9 @@ const Control = () => {
     useEffect(() => {
         let bodyElement = document.querySelector("body");
         if (status2 === "on") {
-            bodyElement.style.backgroundImage = `url("/images/ON1.jpg")`;
+            bodyElement.style.backgroundImage = `url("images/ON1.jpg")`;
         } else {
-            bodyElement.style.backgroundImage = `url("/images/ON2.jpg")`;
+            bodyElement.style.backgroundImage = `url("images/ON2.jpg")`;
         }
     });
 
