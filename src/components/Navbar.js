@@ -21,7 +21,7 @@ const Navbar = () => {
                     <Link to="/control">Control</Link>
                     {currentUser ? (
                         <Link
-                            to="/"
+                            to="#"
                             onClick={() => {
                                 dispatch(logoutUser());
                             }}
