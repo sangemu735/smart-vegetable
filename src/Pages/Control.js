@@ -1,20 +1,20 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
 import LineChart from "../components/LineChart";
 import { io } from "socket.io-client";
 import "./Control.css";
 
 const socket = io("https://smart-vegetable.herokuapp.com");
 
-const lamp_on = "/images/lamp_on.png";
-const lamp_off = "/images/lamp_off.png";
+const lamp_on = "images/lamp_on.png";
+const lamp_off = "images/lamp_off.png";
+const pump_on = "images/water_pump_on.png";
+const pump_off = "images/water_pump_off.png";
 
 const Control = () => {
     const [status1, setStatus1] = useState("off");
     const [status2, setStatus2] = useState("off");
     const [option, setOption] = useState("current");
-    const [mode, setMode] = useState("auto");
     const [adjustTemp, setAdjustTemp] = useState(27);
 
     useEffect(() => {
@@ -140,7 +140,7 @@ const Control = () => {
                     <div className="col">
                         <div className="device-list">
                             <span>Device 1</span>
-                            <img src={status1 === "off" ? lamp_off : lamp_on} alt="Device 1" onClick={changeStatus1} />
+                            <img src={status1 === "off" ? pump_off : pump_on} alt="Device 1" onClick={changeStatus1} />
                             <button
                                 id="device1-off"
                                 style={{ backgroundColor: status1 === "off" ? "red" : "green" }}

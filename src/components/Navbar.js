@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { logoutUser } from "../actions/userAction";
 import "./Navbar.css";
 
-const logo = "/images/logo.png";
+const logo = "images/logo.png";
 
 const Navbar = () => {
     const userstate = useSelector((state) => state.loginUserReducer);
